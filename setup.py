@@ -32,6 +32,8 @@ def copyOver(directory, destination):
     else:
         shutil.copy2(directory, destination)
 
+def copyOverConf(file):
+    copyOver('.config/' + file + '/', '~/.config/' + file)
 
 def printScarryWarning():
     input("THIS SCRIPT IS PURELY FOR MY OWN CONVENIENCE AND WILL SYMLINK INSTEAD OF DIRECTLY WRITING TO THE CONFIG LOCATIONS. IF YOU DONT WANT TO DO THAT THEN JUST MANUALLY COPY PASTE IDK? Press any key to continue")
@@ -50,6 +52,11 @@ def installPackages(packages):
 if __name__ == '__main__':
     printScarryWarning()
     installPackages(["ghostty", "neovim", "firefox", "fastfetch"])
-    copyOver('.config/nvim/', '~/.config/nvim')
-    copyOver('.config/fastfetch', '~/.config/fastfetch')
+   
+    copyOverConf('nvim')
+    copyOverConf('hypr')
+    copyOverConf('fastfetch')
+    copyOverConf('wofi')
+    #copyOver('.config/nvim/', '~/.config/nvim')
+    #copyOver('.config/fastfetch', '~/.config/fastfetch')
 
