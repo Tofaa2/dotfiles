@@ -24,6 +24,7 @@ fi
 
 sudo pacman -Sy zsh waybar pavucontrol swaync bashrc starship ghostty neovim firefox fastfetch
 curl -sS https://starship.rs/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/getnf/getnf/main/install.sh | bash
 
 stow waybar ghostty hypr wofi sway nvim fastfetch
 
