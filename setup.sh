@@ -22,8 +22,10 @@ if [["$choice2$" != "y" && "$choice2" != "Y" ]]; then
   exit 1
 fi
 
-sudo pacman -Sy waybar pavucontrol swaync ghostty neovim firefox fastfetch
-stow waybar sway nvim fastfetch
+sudo pacman -Sy zsh waybar pavucontrol swaync bashrc starship ghostty neovim firefox fastfetch
+curl -sS https://starship.rs/install.sh | sh
+
+stow waybar ghostty hypr wofi sway nvim fastfetch
 
 echo "Completed installation"
 
