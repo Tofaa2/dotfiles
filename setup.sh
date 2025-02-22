@@ -22,11 +22,11 @@ if [["$choice2$" != "y" && "$choice2" != "Y" ]]; then
   exit 1
 fi
 
-sudo pacman -Sy cliphist xdg-desktop-portal-hyprland zsh waybar pavucontrol swaync bashrc starship ghostty neovim firefox fastfetch
+sudo pacman -Sy hyprpaper cliphist xdg-desktop-portal-hyprland zsh waybar pavucontrol swaync bashrc starship ghostty neovim firefox fastfetch
 curl -sS https://starship.rs/install.sh | sh
 curl -fsSL https://raw.githubusercontent.com/getnf/getnf/main/install.sh | bash
 
-stow waybar ghostty hypr wofi sway nvim fastfetch
+stow starship bashrc assets waybar ghostty hypr wofi sway nvim fastfetch
 
 echo "Completed installation"
 
