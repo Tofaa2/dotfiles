@@ -1,4 +1,8 @@
 return {
+
+  "savq/melange-nvim",
+  "bluz71/vim-nightfly-colors",
+  "nyoom-engineering/nyoom.nvim",
   "catppuccin/nvim",
   "rebelot/kanagawa.nvim",
   "folke/tokyonight.nvim",

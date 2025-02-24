@@ -2,7 +2,7 @@
   "position": "top",
   "modules-left": ["tray", "hyprland/workspaces"],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["cpu", "memory", "network", "pulseaudio", "battery", "tray", "clock"],
+  "modules-right": ["cpu", "memory", "network", "pulseaudio", "battery", "clock"],
   
 
   "tray": {
