@@ -4,6 +4,7 @@
   "bamboo.nvim": { "branch": "master", "commit": "0a94f81705733951be286493b8d1876d0e3d990f" },
   "cmp-nvim-lsp": { "branch": "main", "commit": "99290b3ec1322070bcfb9e846450a46f6efa50f0" },
   "cmp_luasnip": { "branch": "master", "commit": "98d9cb5c2c38532bd9bdb481067b20fea8f32e90" },
+  "coc.nvim": { "branch": "master", "commit": "ea4d96437ecf44730b14186d864b260d25ecec55" },
   "cyberdream.nvim": { "branch": "main", "commit": "fb103ac42223db3eb1bfbe46553a620fd647eb95" },
   "everforest": { "branch": "master", "commit": "198ebb219e7075785f8cf34c7793b7430076890d" },
   "friendly-snippets": { "branch": "main", "commit": "efff286dd74c22f731cdec26a70b46e5b203c619" },
